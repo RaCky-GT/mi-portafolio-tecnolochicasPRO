@@ -1,7 +1,7 @@
 /* Barra de navegación */
 .navbar{
     padding: 2rem;
-    background-color: rgb(230, 219, 199);
+    background-color: rgb(212, 171, 171);
 }
 
 .navbar-collapse{
@@ -15,3 +15,46 @@
         display: none;
     }
 }
+
+@media screen and (min-width: 700px){
+    .hero-inferior-imagen{
+        max-width: 600px;
+    }
+}
+
+/*Estilos Generales*/
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    font-size: 2.5rem;
+    font-family: 'Rubik Dirt', cursive;
+}
+
+/* Seccion Hero*/
+.hero{
+    background-color: rgb(255, 255, 247);
+    min-height: 450px;
+    text-align: center;
+}
+
+.hero-imagen-perfil{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+.hero-principal{
+    padding: 3rem; 
+}
+
+.hero-principal h2{
+    font-size: 1.5rem;
+    color: chocolate;
+}
+
