@@ -9,19 +9,6 @@
     justify-content: space-between;
 }
 
-/* Adaptable (Responsivo)*/
-@media screen and (max-whidth: 767px){
-    .navbar-brand{
-        display: none;
-    }
-}
-
-@media screen and (min-width: 700px){
-    .hero-inferior-imagen{
-        max-width: 600px;
-    }
-}
-
 /*Estilos Generales*/
 section{
     display: flex;
@@ -35,9 +22,24 @@ h1{
     font-family: 'Rubik Dirt', cursive;
 }
 
+.seccion-oscura{
+    color: white;
+    background-color: #1b1b32;
+}
+
+.seccion-titulo{
+    font-size: 2rem;
+    padding: 15px 0;
+    font-family: 'Rubik Dirt', cursive;
+}
+
+.seccion-texto{
+    font-size: 1.2rem;
+}
+
 /* Seccion Hero*/
 .hero{
-    background-color: rgb(255, 255, 247);
+    background-color: rgba(245, 238, 208, 0.945);
     min-height: 450px;
     text-align: center;
 }
@@ -58,3 +60,27 @@ h1{
     color: chocolate;
 }
 
+/* Seccion Sobre Mi */
+.sobre-mi{
+    height: 500px;
+    padding: 10px;
+}
+
+.sobre-mi .contenedor{
+    max-width: 600px;
+    text-align: center;
+
+}
+
+/* Adaptable (Responsivo)*/
+@media screen and (max-whidth: 767px){
+    .navbar-brand{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 700px){
+    .hero-inferior-imagen{
+        max-width: 600px;
+    }
+}
